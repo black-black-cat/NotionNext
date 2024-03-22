@@ -55,7 +55,7 @@ export default function ArticleDetail(props) {
                     </div>
 
                     {/* meta */}
-                    <section className="mt-2 text-gray-500 dark:text-gray-400 font-light leading-7 text-sm">
+                    <section className="flex flex-wrap justify-center mt-2 text-gray-500 dark:text-gray-400 font-light leading-7 text-sm">
                         <div className='flex flex-wrap justify-center'>
                             {post?.type !== 'Page' && (<>
                                 <Link
