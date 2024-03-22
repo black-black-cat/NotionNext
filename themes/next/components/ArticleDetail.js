@@ -66,7 +66,7 @@ export default function ArticleDetail(props) {
                                         <i className='far fa-calendar mr-1' /> {post?.publishDay}
                                     </div>
                                 </Link>
-                                <span className='mr-2'> | <i className='far fa-calendar-check mr-2' />{post.lastEditedDay} </span>
+                                {/* <span className='mr-2'> | <i className='far fa-calendar-check mr-2' />{post.lastEditedDay} </span> */}
 
                                 <div className="hidden busuanzi_container_page_pv font-light mr-2">
                                     <i className='mr-1 fas fa-eye' />
